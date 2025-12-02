@@ -1,0 +1,19 @@
+/* ----------------------------------------------------------------
+	Custom CSS
+
+	Add all your Custom Styled CSS here for New Styles or
+	Overwriting Default Theme Styles for Better Handling Updates
+-----------------------------------------------------------------*/
+
+
+/* Forzar que los títulos del slider NO estén en mayúsculas */
+.slider-caption h2,
+.slider-caption:not(.dark) h2 {
+    text-transform: none !important;
+}
+
+/* Ajustar tamaño del título del slider */
+.slider-caption h2 {
+    font-size: 3rem !important;   /* Ajustá este valor */
+    line-height: 1.1 !important;
+}
